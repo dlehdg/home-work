@@ -1,0 +1,118 @@
+
+body {
+  background: #E2E2E2;
+}
+
+.main {
+  display: flex;
+  /* background: blue; */
+  /* width: 00px; */
+  flex-direction: column;
+  align-items: center;
+}
+
+.boxA {
+  display: flex;
+  position: relative;
+  background: #fff;
+  width: 502px;
+  height: 310px;
+  justify-content: center;
+  /* margin: 50px auto; */
+  border: 1px solid #c4c4c4;
+  /* box-shadow: 5px 5px 0 0 #ccc; */
+  border-radius: 5px;
+  margin: 30px;
+}
+
+.logo-text {
+  text-align: center;
+  margin-top: 75px;
+  /* position: relative; */
+  padding-bottom: 20px;
+}
+
+.btn1 {
+  position: absolute;
+  width: 42px;
+  height: 42px;
+  flex-shrink: 0;
+  fill:  rgba(0, 0, 0, 0.20);
+  color: #ccc;
+  margin-top: 20px;
+  left: 0;
+  bottom: 0;
+  margin-bottom: 20px;
+  margin-left: 20px;
+}
+/* 
+.btn1::after {
+  content: ">";
+} */
+
+.btn1:hover{
+  background: #0074E9;
+  border: 0;
+  z-index: 10;
+  width: 100px;
+  height: 42px;
+  font-size: 15px;
+  color: #fff;
+  
+}
+
+.btn1:hover::before {
+  content: "구매하기";
+  /* background: #0074E9; */
+  padding-right: 10px;
+}
+
+
+h1, .ch1 {
+  color: #4e4e4e;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 150%;
+}
+
+.centers {
+  display: flex;
+  /* margin: 0 100px; */
+  align-items: center;
+  justify-content: center;
+  /* padding-bottom: 20px; */
+}
+
+.kamill {
+  position: relative;
+  background-color: #fff;
+  width: 233px;
+  height: 310px;
+  /* justify-content: center; */
+  /* align-items: center; */
+  margin-right: 30px;
+  /* box-shadow: 5px 5px 0 0 #ccc; */
+  border: 1px solid #c4c4c4;
+  text-align: center;
+  border-radius: 5px;
+  padding-bottom: 20px;
+  padding-top: 10px;
+
+
+}
+
+.gomgom {
+  position: relative;
+  background: #fff;
+  width: 233px;
+  height: 310px;
+  /* box-shadow: 5px 5px 0 0 #ccc; */
+  align-items: center;
+  border: 1px solid #c4c4c4;
+  text-align: center;
+  border-radius: 5px;
+  padding-bottom: 20px;
+  padding-top: 10px;
+
+}
