@@ -13,7 +13,7 @@
 
 ---
 
-### 1-1. 전체 구조
+## 1-1. 전체 구조
 
 
 
@@ -29,7 +29,7 @@ mission-01 파일 안에 이미지와 css을 보관할 파일을 생성
 ---
 <br>
 
-### 1-2. HTML
+## 1-2. HTML
 
 
 
@@ -52,7 +52,7 @@ html 요소는 클래스 이름이 boxA인 요소와 kamill 그리고 .gomgom �
 <br>
 
 
-### 1-3. CSS
+## 1-3. CSS
 
 배경색 등의 파일등은 피그마에서 주어진 지정된 색 사용
 
@@ -138,7 +138,7 @@ html 요소는 클래스 이름이 boxA인 요소와 kamill 그리고 .gomgom �
 
 ---
 
-### 1-4. TEST
+## 1-4. TEST
 
 ![image](https://github.com/dlehdg/home-work/assets/80308340/745ae3e1-22db-4e4a-b83b-827da4f18820)
 
