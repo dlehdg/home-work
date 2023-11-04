@@ -1,0 +1,12 @@
+img {
+  vertical-align: middle;
+}
+
+.button {
+  cursor: pointer;
+
+  /* 부모 참조 선택자 -> button:direction {} 형태 */
+  &:disabled {
+    cursor: not-allowed;
+  }
+}
