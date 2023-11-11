@@ -18,65 +18,55 @@
 
     
     
-    <div class="email-box">
+    <div class="login-wrap">
+      <div class="email-box">
       
-        <label for="email" class="input-text">이메일</label>
-        
-        <input type="email" name="email" id="email" required autofocus/>
-
-        <img src="./image/error.png" alt="에러" class="error-image"/>
-        <img src="./image/체크마크.svg" alt="에러" class="error-image checked"/>
-
-        <span class="error-msg-email">이메일 입력 방법이 잘못되었습니다. (예: user@domain.io)</span>
-        <!-- <div class="line"></div> -->
-        
-    </div>
-
-    <!-- <div class="email">
-      <label class="email-label " for="email" id="user-email">이메일</label>
-      <input type="email" placeholder="yamoo9@euid.dev" required />
-    </div> -->
-
-    <div class="password-box">
-      <label for="password" class="input-text">패스워드</label>
-        
-        <input type="password" name="password" id="password">
-
-        <img src="./image/eye.png" alt="pw확인" class="eye-image"/>
-        <img src="./image/eye-reverse.png" alt="pw체크" class="eye-image .reverse"/>
-
-        <img src="./image/error.png" alt="에러" class="error-image"/>
-
-        <span class="error-msg-pw">패스워드는 숫자, 영어 조합 6자 이상 입력해야 합니다</span>
-
-        <!-- <div class="line"></div> -->
-        <div class="check-box">
-          <input type="checkbox" name="check-boxs" id="email-checkbox" />
-          <label for = "email-checkbox" class="input-text-btn">이메일 저장</label>
-        </div> 
+          <label for="email" class="input-text">이메일</label>
+      
+          <input type="email" name="email" id="email" required autofocus/>
+          <img src="./image/error.png" alt="에러" class="error-image"/>
+          <img src="./image/체크마크.svg" alt="에러" class="error-image checked"/>
+          <span class="error-msg-email">이메일 입력 방법이 잘못되었습니다. (예: user@domain.io)</span>
+          <!-- <div class="line"></div> -->
+      
       </div>
-
-    
-    
-    
-    
-
-
-    <section class="login-btn">
+      <!-- <div class="email">
+        <label class="email-label " for="email" id="user-email">이메일</label>
+        <input type="email" placeholder="yamoo9@euid.dev" required />
+      </div> -->
+      <div class="password-box">
+        <label for="password" class="input-text">패스워드</label>
+      
+          <input type="password" name="password" id="password">
+          <img src="./image/eye.png" alt="pw확인" class="eye-image"/>
+          <img src="./image/eye-reverse.png" alt="pw체크" class="eye-image .reverse"/>
+          <img src="./image/error.png" alt="에러" class="error-image"/>
+          <span class="error-msg-pw">패스워드는 숫자, 영어 조합 6자 이상 입력해야 합니다</span>
+          <!-- <div class="line"></div> -->
+          <div class="check-box">
+            <input type="checkbox" name="check-boxs" id="email-checkbox" />
+            <label for = "email-checkbox" class="input-text-btn">이메일 저장</label>
+          </div>
+        </div>
+      
+      
+      
+      
+      <section class="login-btn">
+        <div class="login-btn-box">
+        <button type="submit" class="white-btn">
+          <p class="submit-text">로그인</p>
+        </button>
+        <img src="./image/화살표2.png" alt="화살표2" class="arrow-img"/>
+      </div>
       <div class="login-btn-box">
-      <button type="submit" class="white-btn">
-        <p class="submit-text">로그인</p>
-      </button>
-      <img src="./image/화살표2.png" alt="화살표2" class="arrow-img"/>
+        <button type="button" class="reverse-btn">
+          <p class="reverse-text">회원가입 </p>
+        </button>
+        <img src="./image/화살표.svg" alt="화살표" class="arrow-img2"/>
+      </div>
+      </section>
     </div>
-
-    <div class="login-btn-box">
-      <button type="button" class="reverse-btn">
-        <p class="reverse-text">회원가입 </p>      
-      </button>
-      <img src="./image/화살표.svg" alt="화살표" class="arrow-img2"/>
-    </div>
-    </section>
   </div>
 </body>
 </html>
