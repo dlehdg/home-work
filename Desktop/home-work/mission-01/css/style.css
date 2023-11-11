@@ -45,10 +45,6 @@ body {
   margin-bottom: 20px;
   margin-left: 20px;
 }
-/* 
-.btn1::after {
-  content: ">";
-} */
 
 .btn1:hover{
   background: #0074E9;
@@ -78,10 +74,9 @@ h1, .ch1 {
 
 .centers {
   display: flex;
-  /* margin: 0 100px; */
   align-items: center;
   justify-content: center;
-  /* padding-bottom: 20px; */
+  
 }
 
 .kamill {
