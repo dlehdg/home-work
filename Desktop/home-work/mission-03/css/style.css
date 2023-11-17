@@ -1,0 +1,10 @@
+@import url(./component.css);
+
+
+.bg-box {
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0.00) 0%, #000 100%), 
+  url(/mission-03/images/background.svg), black 50%;
+  width: 100%;
+  background-size: cover;
+
+}

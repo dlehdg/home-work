@@ -2,6 +2,7 @@
 body {
   background: pink;
   margin: 0;
+  
 }
 
 .login-box {
@@ -132,6 +133,7 @@ label, input {
   box-shadow: none;
   border-bottom: 0.03125em solid #fff;
   outline: none;
+  color: white;
   /* padding: 8px; */
    /* 선택적으로 테두리를 추가할 수 있습니다 */
 }
@@ -245,7 +247,7 @@ label, input {
   font-style: normal;
   font-weight: 400;
   line-height: normal;
-  /* letter-spacing: -0.24px; */
+  
   display: none;
 }
 
@@ -256,12 +258,18 @@ label, input {
   font-style: normal;
   font-weight: 400;
   line-height: normal;
-  /* letter-spacing: -0.24px; */
   display : none;
 }
 
 
-.error-image {
+.error-image-email {
+  position: absolute;
+  right: 1em;
+  top: 1em;
+  display: none;
+}
+
+.error-image-pw {
   position: absolute;
   right: 1em;
   top: 1em;
@@ -278,10 +286,11 @@ label, input {
 
 /* eye-image를 클릭시 이벤트로 클래스 이름 변경 eye-image -> eye-reverse */
 
-.eye-image .reverse {
+.eye-image-reverse {
   position: absolute;
   right: 3em;
-  top: 1.8em;
+  top: 1em;
+  display: none;
 }
 
 
@@ -290,7 +299,7 @@ label, input {
 .checked {
   position: absolute;
   right: 1em;
-  top: 1.8em;
+  top: 1em;
   display: none;
 }
 

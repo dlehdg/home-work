@@ -1,0 +1,78 @@
+
+body{
+  margin: 0;
+}
+
+.header-inner {
+  background: transparent;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 65px;
+}
+
+.svg-logo {
+  width: 8.75em;
+  height: 38px;
+  /* background-color: aqua; */
+}
+
+
+.header-list {
+  display: flex;
+  align-items: center;
+  column-gap: 20px;
+}
+
+
+.select-box {
+  width: 113px;
+  height: 40px;
+  background: url('/mission-03/images/global.svg') no-repeat 5% 50%;
+  text-align: center;
+  border-radius: 2px;
+  color: #757575;
+  margin: 0;
+}
+
+.select-box:hover, .select-box:focus {
+  border: 3px solid #2EDE75;
+
+}
+
+
+.header-button {
+  border-radius: 3px;
+}
+
+/* 데스크탑 */
+
+@media (min-width: 768px) {
+
+  
+
+}
+
+/* 모바일 */
+
+@media (max-width: 768px) {
+
+
+  .svg-logo{
+    width: 5em;
+    height: 1.375em;
+    justify-content: space-around;
+
+  }
+
+  .header-inner {
+    padding-right: 1em;
+  }
+
+  .header-list {
+
+
+  }
+  
+}
+

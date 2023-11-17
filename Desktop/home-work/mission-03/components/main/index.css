@@ -1,0 +1,148 @@
+
+body {
+  margin: 0;
+
+}
+
+.main {
+  display: flex;
+  flex-flow: column nowrap;
+  background: transparent;
+  /* background: #000; */
+  /* padding: 57px 240px; */
+  /* width: 100%; */
+  justify-content: center;
+  align-items: center;
+  padding-top: 57px;
+  padding-bottom: 15%;
+  padding-left: 10%;
+  padding-right: 10%;
+
+  border-bottom: 4px solid #2F2F2F;
+
+}
+
+.main-text-1 {
+  color: var(--White, #FFF);
+text-align: center;
+/* width: 100%; */
+/* Title/2x-large */
+font-family: SpoqaHanSans;
+font-size: 3.75em;
+font-style: normal;
+font-weight: 700;
+line-height: 120%; /* 72px */
+/* letter-spacing: -0.03px; */
+}
+
+.main-text-2 {
+  color: var(--White, #FFF);
+  text-align: justify;
+  /* width: 100%; */
+  /* Text Shadow (Paragraph) */
+  text-shadow: 0px 2px 6px rgba(0, 0, 0, 0.55);
+
+  /* Text/x-large (bold) */
+  font-family: SpoqaHanSans;
+  font-size: 1.25em;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 150%; /* 30px */
+  letter-spacing: -0.01px;
+}
+
+.main-text-3{
+  color: var(--White, #FFF);
+  text-align: justify;
+  /* width: 100%; */
+  /* Text Shadow (Paragraph) */
+  text-shadow: 0px 2px 6px rgba(0, 0, 0, 0.55);
+  
+  /* Text/normal (bold) */
+  font-family: SpoqaHanSans;
+  font-size: 1em;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 150%; /* 24px */
+  letter-spacing: -0.008px;
+}
+
+
+.main-text-4 {
+  color: var(--White, #FFF);
+  text-align: justify;
+  
+  /* Text Shadow (Paragraph) */
+  text-shadow: 0px 2px 6px rgba(0, 0, 0, 0.55);
+  
+  /* Text/normal (bold) */
+  font-family: SpoqaHanSans;
+  font-size: 1em;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 150%; /* 24px */
+  letter-spacing: -0.008px;
+}
+
+.email-input {
+  display: flex;
+  flex-flow: row nowrap;
+  width: 100%;
+  justify-content: center;
+}
+
+.email-input-box {
+  width: 100%; 
+  max-width: 500px;
+  height: 48px;
+}
+
+
+
+.email-input-box:hover  {
+  border-bottom: 3px solid red;
+}
+
+
+.email-input-btn {
+  background: #E50914;
+  padding: 15px 20px;
+  color: #FFF;
+  border: 0;
+  width: 100%;
+  max-width: 170px;
+}
+
+.email-input-btn:hover {
+  border: 3px solid #58E590;
+}
+
+@media (max-width: 768px) {
+  .main {
+    background: #000;
+  }
+
+  .main-text-1 {
+    font-size: 34px;
+    font-style: normal;
+    font-weight: 700;
+    text-align: center;
+  }
+
+  .email-input {
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+    row-gap: 12px;
+  }
+
+  .email-input-box {
+    border-radius: 20px;
+    width: 50%;
+  }
+
+  .email-input-btn {
+    border-radius: 20px;
+  }
+
+}
