@@ -101,6 +101,24 @@ header 컴포넌트 - main 컴포넌트 - footer 컴포넌트
 
 ## 4. TEST
 
+<br>
+
+
+![녹화_2023_11_18_15_30_40_413](https://github.com/dlehdg/home-work/assets/80308340/cd879e5f-a59b-4a5c-bb48-fbb8dcf2595f)
+
+데스크탑 버전
+
+
+<br>
+<br>
+
+![녹화_2023_11_18_15_33_45_732](https://github.com/dlehdg/home-work/assets/80308340/f366c37b-6978-473d-9c70-75b1261863e8)
+
+모바일 버전
+
+<br>
+
+
 
 
 
