@@ -20,7 +20,7 @@
 }
 
 .footer-list-1 {
-  
+  /* justify-content: start; */
 }
 
 .footer-list-box {
@@ -29,7 +29,7 @@
   column-gap: 10px;
   justify-content: flex-start;
   align-items: center;
-
+  padding-left: 0;
   & li {
     font-family: SpoqaHanSans;
     font-size: 16px;

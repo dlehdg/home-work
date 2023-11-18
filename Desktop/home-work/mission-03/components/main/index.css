@@ -120,12 +120,27 @@ line-height: 120%; /* 72px */
 @media (max-width: 768px) {
   .main {
     background: #000;
+
   }
 
   .main-text-1 {
     font-size: 34px;
     font-style: normal;
     font-weight: 700;
+    text-align: center;
+  }
+
+  .main-text-2 {
+    /* font-size: 34px; */
+    font-style: normal;
+    /* font-weight: 700; */
+    text-align: center;
+  }
+
+  .main-text-3 {
+    /* font-size: 34px; */
+    font-style: normal;
+    /* font-weight: 700; */
     text-align: center;
   }
 
