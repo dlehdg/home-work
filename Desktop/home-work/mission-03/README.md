@@ -23,8 +23,22 @@
 <br>
 
 넷플릭스 웹사이트 마크업을 3개의 컴포넌트를 통해 구성
+
 <br>
-header 컴포넌트 - main 컴포넌트 - footer 컴포넌트
+
+### header 컴포넌트 - main 컴포넌트 - footer 컴포넌트
+
+<br>
+
+header 컴포넌트 - 로고, select btn, login-btn 구현
+
+<br>
+
+main 컴포넌트 - 소개 문자, input, button 구현
+
+<br>
+
+footer 컴포넌트 - gird, address 구현
 
 <br>
 
