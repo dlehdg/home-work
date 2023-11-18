@@ -8,3 +8,7 @@
   background-size: cover;
 
 }
+
+.sr-onry {
+  display: none;
+}
